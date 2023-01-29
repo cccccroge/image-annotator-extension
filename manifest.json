@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "image-annotator",
+  "version": "1.0",
+
+  "description": "Let the user quickly annotate their webpage, without even to think",
+  "homepage_url": "https://github.com/cccccroge/image-annotator-extension",
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_title": "annotate now",
+    "default_popup": "popup/annotate.html"
+  }
+}
